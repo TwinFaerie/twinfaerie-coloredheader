@@ -9,12 +9,23 @@ namespace TF.ColoredHeader
     [System.Serializable]
     public class HeaderTitle : MonoBehaviour
     {
+        #if TF_HAS_TFODINEXTENDER
         [TabGroup("Color")] public Color fontColor = Color.white;
         [TabGroup("Color")] public Color backgroundColor = Color.gray;
         
         [TabGroup("Font")] public Font font;
         [TabGroup("Font")] public FontStyle fontStyle = FontStyle.Bold;
         [TabGroup("Font")] public HeaderAlignment alignment = HeaderAlignment.Center;
+        #else
+        [Header("Color")]
+        public Color fontColor = Color.white;
+        public Color backgroundColor = Color.gray;
+        
+        [Header("Font")]
+        public Font font;
+        public FontStyle fontStyle = FontStyle.Bold;
+        public HeaderAlignment alignment = HeaderAlignment.Center;
+        #endif
         
         private const string EditorOnlyTag = "EditorOnly";
 
