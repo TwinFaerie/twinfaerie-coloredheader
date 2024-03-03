@@ -1,4 +1,6 @@
+#if TF_HAS_TFODINEXTENDER
 using Sirenix.OdinInspector;
+#endif
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
