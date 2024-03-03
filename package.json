@@ -1,6 +1,6 @@
 {
   "name": "com.twinfaerie.colored-header",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "TwinFaerie Colored-Header",
   "description": "TwinFaerie Colored-Header based on My Hierarchy by inf",
   "unity": "2020.2",
@@ -15,12 +15,5 @@
     "name": "Twin Faerie",
     "email": "support@twinfaerie.my.id",
     "url": "https://www.twinfaerie.my.id/"
-  },
-  "samples": [
-    {
-      "displayName": "Example Usage",
-      "description": "Adding Example Implementation to the module",
-      "path": "Samples~/TypeReferencesExample"
-    }
-  ]
+  }
 }
