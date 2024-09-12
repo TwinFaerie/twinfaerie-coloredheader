@@ -9,7 +9,7 @@ If you want fully featured one, visit: https://github.com/INFGameDev/My-Hierarch
 # Installation
 You can just use Unity Package Manager and use either Git URL or OpenUPM URL down below.
 
-## OpenUPM (Recommeded)
+## 1. OpenUPM (Recommeded)
 - Open Project Settings -> Package Manager
 - add a new Scoped Registry (or edit the existing OpenUPM entry)  
   ![image](https://github.com/user-attachments/assets/b5d1ba1f-45d9-4b7c-8bd8-26a8b7d89edf)
@@ -18,14 +18,13 @@ You can just use Unity Package Manager and use either Git URL or OpenUPM URL dow
   URL: https://package.openupm.com
   Scope: com.twinfaerie
   ```
-
 - Click Save or Apply
 - Open Window -> Package Manager
 - Open MyRegistry tab (or the name of the scoped registry) and you will find it on the list
 - Just Install it from there  
   ![image](https://github.com/user-attachments/assets/3b07ec7b-703a-4f26-8129-1a90e06d2fae)
 
-## Github
+## 2. Github
 - Open Window -> Package Manager
 - Choose Install Package from Git URL
 - Paste this link https://github.com/TwinFaerie/twinfaerie-coloredheader.git
