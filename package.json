@@ -4,16 +4,16 @@
   "displayName": "TwinFaerie Colored-Header",
   "description": "TwinFaerie Colored-Header based on My Hierarchy by inf",
   "unity": "2020.2",
-  "documentationUrl": "https://github.com/TwinFaerie/twinfaerie-odinextendedinspector/",
-  "changelogUrl": "https://github.com/TwinFaerie/twinfaerie-odinextendedinspector/releases",
-  "licensesUrl": "https://github.com/TwinFaerie/twinfaerie-odinextendedinspector/blob/main/LICENSE",
-  "repository": "https://github.com/TwinFaerie/twinfaerie-odinextendedinspector",
+  "documentationUrl": "https://github.com/TwinFaerie/twinfaerie-coloredheader",
+  "changelogUrl": "https://github.com/TwinFaerie/twinfaerie-coloredheader/releases",
+  "licensesUrl": "https://github.com/TwinFaerie/twinfaerie-coloredheader/blob/main/LICENSE",
+  "repository": "https://github.com/TwinFaerie/twinfaerie-coloredheader",
   "publishConfig": {
     "registry": "https://package.openupm.com"
   },
   "author": {
-    "name": "Twin Faerie",
-    "email": "support@twinfaerie.my.id",
-    "url": "https://www.twinfaerie.my.id/"
+    "name": "TwinFaerie",
+    "email": "support@twinfaerie.com",
+    "url": "https://www.twinfaerie.com/"
   }
 }
