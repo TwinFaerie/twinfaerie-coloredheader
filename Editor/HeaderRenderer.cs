@@ -12,11 +12,20 @@ namespace TF.ColoredHeader
         private const int HierarchyItemRectRightMargin = 16;
         private const int SceneVisibilityAndPickabilityControlXMax = 32;
         
-        static HeaderRenderer() => EditorApplication.hierarchyWindowItemOnGUI += OnGameObjectItemRender;
-
-        private static void OnGameObjectItemRender(int instanceID, Rect selectionRect)
+        //static HeaderRenderer() => EditorApplication.hierarchyWindowItemByEntityIdOnGUI += OnGameObjectItemRender;
+        
+        static HeaderRenderer()
         {
-            var gameObject = (GameObject)EditorUtility.InstanceIDToObject(instanceID);
+            EditorApplication.delayCall += () =>
+            {
+                EditorApplication.hierarchyWindowItemByEntityIdOnGUI -= OnGameObjectItemRender;
+                EditorApplication.hierarchyWindowItemByEntityIdOnGUI += OnGameObjectItemRender;
+            };
+        }
+        
+        private static void OnGameObjectItemRender(EntityId instanceID, Rect selectionRect)
+        {
+            var gameObject = (GameObject)EditorUtility.EntityIdToObject(instanceID);
             if (gameObject == null)
                 return;
 

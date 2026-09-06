@@ -1,9 +1,9 @@
 {
   "name": "com.twinfaerie.colored-header",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "TwinFaerie Colored-Header",
   "description": "TwinFaerie Colored-Header based on My Hierarchy by inf",
-  "unity": "2020.2",
+  "unity": "6000.0",
   "documentationUrl": "https://github.com/TwinFaerie/twinfaerie-coloredheader",
   "changelogUrl": "https://github.com/TwinFaerie/twinfaerie-coloredheader/releases",
   "licensesUrl": "https://github.com/TwinFaerie/twinfaerie-coloredheader/blob/main/LICENSE",
